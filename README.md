@@ -1,6 +1,6 @@
 # Mini ETL Pipeline using Airflow, Pandas & Snowflake
 
-## Project Overview:
+## 📌 Project Overview:
 - This project demonstrates a Mini Data Engineering Pipeline where data is extracted from an API, transformed using Pandas, orchestrated with Apache Airflow, and loaded into Snowflake.
 - The goal was to practice building an industry-style ETL pipeline with scheduling, reproducibility, and cloud data warehouse integration.
 
