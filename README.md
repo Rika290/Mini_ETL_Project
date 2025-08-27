@@ -14,7 +14,7 @@
 ### 📸 Screenshot of the DAG
 Here’s a snapshot of the dataset used in this project:
 
-![Dataset Preview](images/DAG_preview.png)
+![Airflow_DAG Preview](images/DAG_preview.png)
 
 ## 🛠️ Tech Stack:
 - Python (Pandas, Requests) – Data extraction & transformation
