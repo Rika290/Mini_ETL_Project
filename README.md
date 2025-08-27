@@ -11,6 +11,11 @@
 - Orchestration → Built a DAG in Apache Airflow with PythonOperator for task scheduling and reproducibility.
 - Version Control → Tracked changes with Git & GitHub.
 
+### 📸 Screenshot of the DAG
+Here’s a snapshot of the dataset used in this project:
+
+![Dataset Preview](images/DAG_preview.png)
+
 ## 🛠️ Tech Stack:
 - Python (Pandas, Requests) – Data extraction & transformation
 - Apache Airflow – Workflow orchestration
