@@ -1,4 +1,4 @@
-Mini ETL Pipeline using Airflow, Pandas & Snowflake
+# Mini ETL Pipeline using Airflow, Pandas & Snowflake
 
 Project Overview:
 - This project demonstrates a Mini Data Engineering Pipeline where data is extracted from an API, transformed using Pandas, orchestrated with Apache Airflow, and loaded into Snowflake.
@@ -11,19 +11,19 @@ Key Highlights:
 - Orchestration → Built a DAG in Apache Airflow with PythonOperator for task scheduling and reproducibility.
 - Version Control → Tracked changes with Git & GitHub.
 
-Tech Stack:
+## Tech Stack:
 - Python (Pandas, Requests) – Data extraction & transformation
 - Apache Airflow – Workflow orchestration
 - Snowflake – Cloud data warehouse
 - Git & GitHub – Version control
 
 📂 Project Structure
-├── README.md                # Project documentation
-├── project_1_Mini ETL.py    # Airflow DAG (ETL pipeline code)
-├── api_data.csv             # Extracted raw API data
-├── transformed_api_data.csv # Transformed & cleaned data
-├── project_1_DAG_run.png    # Screenshot of Airflow DAG execution
-
+- `README.md` → documentation
+- `project_1_Mini ETL.py` → airflow DAG (ETL pipeline code)
+- `api_data.csv` → extracted raw API data
+- `transformed_api_data.csv` → transformed & cleaned data
+- `project_1_DAG_run.png` → screenshot of Airflow DAG execution
+  
 Workflow Architecture:
 ETL Flow:
 Extract (API) → Transform (Pandas) → Load (Snowflake)
